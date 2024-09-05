@@ -1,1 +1,0 @@
-const someNumber = 1;
