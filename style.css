@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 253, 253);
+  width: 80%;
+  max-width: 1000px;
+
+}
+h1 {
+  background: none;
+    color:rgb(247, 242, 242);
+    position: absolute;
+    top: 8px;
+    left: -150px;
+    width: 100%;
+}
+ h3 {
+  background:none;
+  position: absolute;
+  top: 50px;
+  left: -150px;
+  width: 100%;
+  color: #000;
+}
+img {
+    float: left;
+    margin-left: 10px;
+    border: 2px solid #000d6f;
+    border-radius:15% ;
+  }
+  p{
+    color: #000000;;
+    text-align: justify;
+    margin-top: 5px;
+    margin-left: 50px;
+    max-width: 200px;
+  }
+  header {
+    background-color: #000d6f;
+    padding: 20px;
+    text-align: center;
+  }
+  .out-container {
+    width: 300px;        
+    height: 400px;       
+    background-color: rgb(25, 3, 135); 
+    border: 2px solid #ffffff; 
+    border-radius: 15%;
+    display: flex;       
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin-left: 10px ;  
+    margin-top: -400px;
+  }
+  .in-container {
+    width: 250px;        
+    height: 100px;       
+    background-color: rgb(255, 255, 255); 
+    border: 2px solid #ffffff; 
+    border-radius: 10%;
+    display: flex;       
+    margin-top: -250px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .right-container {
+    width: 670px;        
+    height: 630px;       
+    background-color: rgb(25, 3, 135); 
+    border: 2px solid #ffffff; 
+    border-radius: 15%;
+    display: flex;       
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin-left: 330px; 
+    margin-top: 40px;
+  }
+  .myself{
+    color: #cec6c6;
+    text-align: start;
+    list-style-position: inside; 
+    padding-left: 5px;
+    margin-top: -500px;
+  }
+  .about-myself {
+    color: #cec6c6;
+    margin-left: 10px;
+    margin-bottom: 350px;
+  }
+  .skills{
+    color: #cec6c6;
+    text-align: start;
+    padding-left: 3px;
+    margin-left: -250px;
+    margin-bottom: 100px;
+  }
+.my-skills{
+  color: #fbfbfb;
+  text-align: left;
+  margin-right: 400px;
+  margin-top: 50px;
+}
